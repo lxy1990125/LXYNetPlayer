@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8996C66E1CC07E4400E40C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C66D1CC07E4400E40C74 /* AppDelegate.swift */; };
+		8996C6701CC07E4400E40C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C66F1CC07E4400E40C74 /* ViewController.swift */; };
+		8996C6731CC07E4400E40C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8996C6711CC07E4400E40C74 /* Main.storyboard */; };
+		8996C6751CC07E4400E40C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8996C6741CC07E4400E40C74 /* Assets.xcassets */; };
+		8996C6781CC07E4400E40C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8996C6761CC07E4400E40C74 /* LaunchScreen.storyboard */; };
+		8996C6831CC07E4400E40C74 /* LXYNetPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C6821CC07E4400E40C74 /* LXYNetPlayerTests.swift */; };
+		8996C68E1CC07E4400E40C74 /* LXYNetPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C68D1CC07E4400E40C74 /* LXYNetPlayerUITests.swift */; };
+		8996C69C1CC07E6500E40C74 /* LXYNetPlayerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C69B1CC07E6500E40C74 /* LXYNetPlayerSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8996C67F1CC07E4400E40C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8996C6621CC07E4400E40C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8996C6691CC07E4400E40C74;
+			remoteInfo = LXYNetPlayer;
+		};
+		8996C68A1CC07E4400E40C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8996C6621CC07E4400E40C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8996C6691CC07E4400E40C74;
+			remoteInfo = LXYNetPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8996C66A1CC07E4400E40C74 /* LXYNetPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXYNetPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8996C66D1CC07E4400E40C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8996C66F1CC07E4400E40C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8996C6721CC07E4400E40C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8996C6741CC07E4400E40C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8996C6771CC07E4400E40C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8996C6791CC07E4400E40C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8996C67E1CC07E4400E40C74 /* LXYNetPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYNetPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8996C6821CC07E4400E40C74 /* LXYNetPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXYNetPlayerTests.swift; sourceTree = "<group>"; };
+		8996C6841CC07E4400E40C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8996C6891CC07E4400E40C74 /* LXYNetPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYNetPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8996C68D1CC07E4400E40C74 /* LXYNetPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXYNetPlayerUITests.swift; sourceTree = "<group>"; };
+		8996C68F1CC07E4400E40C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8996C69B1CC07E6500E40C74 /* LXYNetPlayerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXYNetPlayerSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8996C6671CC07E4400E40C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C67B1CC07E4400E40C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C6861CC07E4400E40C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8996C6611CC07E4400E40C74 = {
+			isa = PBXGroup;
+			children = (
+				8996C66C1CC07E4400E40C74 /* LXYNetPlayer */,
+				8996C6811CC07E4400E40C74 /* LXYNetPlayerTests */,
+				8996C68C1CC07E4400E40C74 /* LXYNetPlayerUITests */,
+				8996C66B1CC07E4400E40C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8996C66B1CC07E4400E40C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8996C66A1CC07E4400E40C74 /* LXYNetPlayer.app */,
+				8996C67E1CC07E4400E40C74 /* LXYNetPlayerTests.xctest */,
+				8996C6891CC07E4400E40C74 /* LXYNetPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8996C66C1CC07E4400E40C74 /* LXYNetPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8996C66D1CC07E4400E40C74 /* AppDelegate.swift */,
+				8996C66F1CC07E4400E40C74 /* ViewController.swift */,
+				8996C69B1CC07E6500E40C74 /* LXYNetPlayerSwift.swift */,
+				8996C6711CC07E4400E40C74 /* Main.storyboard */,
+				8996C6741CC07E4400E40C74 /* Assets.xcassets */,
+				8996C6761CC07E4400E40C74 /* LaunchScreen.storyboard */,
+				8996C6791CC07E4400E40C74 /* Info.plist */,
+			);
+			path = LXYNetPlayer;
+			sourceTree = "<group>";
+		};
+		8996C6811CC07E4400E40C74 /* LXYNetPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8996C6821CC07E4400E40C74 /* LXYNetPlayerTests.swift */,
+				8996C6841CC07E4400E40C74 /* Info.plist */,
+			);
+			path = LXYNetPlayerTests;
+			sourceTree = "<group>";
+		};
+		8996C68C1CC07E4400E40C74 /* LXYNetPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8996C68D1CC07E4400E40C74 /* LXYNetPlayerUITests.swift */,
+				8996C68F1CC07E4400E40C74 /* Info.plist */,
+			);
+			path = LXYNetPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8996C6691CC07E4400E40C74 /* LXYNetPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8996C6921CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayer" */;
+			buildPhases = (
+				8996C6661CC07E4400E40C74 /* Sources */,
+				8996C6671CC07E4400E40C74 /* Frameworks */,
+				8996C6681CC07E4400E40C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXYNetPlayer;
+			productName = LXYNetPlayer;
+			productReference = 8996C66A1CC07E4400E40C74 /* LXYNetPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8996C67D1CC07E4400E40C74 /* LXYNetPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8996C6951CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayerTests" */;
+			buildPhases = (
+				8996C67A1CC07E4400E40C74 /* Sources */,
+				8996C67B1CC07E4400E40C74 /* Frameworks */,
+				8996C67C1CC07E4400E40C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8996C6801CC07E4400E40C74 /* PBXTargetDependency */,
+			);
+			name = LXYNetPlayerTests;
+			productName = LXYNetPlayerTests;
+			productReference = 8996C67E1CC07E4400E40C74 /* LXYNetPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8996C6881CC07E4400E40C74 /* LXYNetPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8996C6981CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayerUITests" */;
+			buildPhases = (
+				8996C6851CC07E4400E40C74 /* Sources */,
+				8996C6861CC07E4400E40C74 /* Frameworks */,
+				8996C6871CC07E4400E40C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8996C68B1CC07E4400E40C74 /* PBXTargetDependency */,
+			);
+			name = LXYNetPlayerUITests;
+			productName = LXYNetPlayerUITests;
+			productReference = 8996C6891CC07E4400E40C74 /* LXYNetPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8996C6621CC07E4400E40C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lixinyun;
+				TargetAttributes = {
+					8996C6691CC07E4400E40C74 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8996C67D1CC07E4400E40C74 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8996C6691CC07E4400E40C74;
+					};
+					8996C6881CC07E4400E40C74 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8996C6691CC07E4400E40C74;
+					};
+				};
+			};
+			buildConfigurationList = 8996C6651CC07E4400E40C74 /* Build configuration list for PBXProject "LXYNetPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8996C6611CC07E4400E40C74;
+			productRefGroup = 8996C66B1CC07E4400E40C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8996C6691CC07E4400E40C74 /* LXYNetPlayer */,
+				8996C67D1CC07E4400E40C74 /* LXYNetPlayerTests */,
+				8996C6881CC07E4400E40C74 /* LXYNetPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8996C6681CC07E4400E40C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8996C6781CC07E4400E40C74 /* LaunchScreen.storyboard in Resources */,
+				8996C6751CC07E4400E40C74 /* Assets.xcassets in Resources */,
+				8996C6731CC07E4400E40C74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C67C1CC07E4400E40C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C6871CC07E4400E40C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8996C6661CC07E4400E40C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8996C6701CC07E4400E40C74 /* ViewController.swift in Sources */,
+				8996C66E1CC07E4400E40C74 /* AppDelegate.swift in Sources */,
+				8996C69C1CC07E6500E40C74 /* LXYNetPlayerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C67A1CC07E4400E40C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8996C6831CC07E4400E40C74 /* LXYNetPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8996C6851CC07E4400E40C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8996C68E1CC07E4400E40C74 /* LXYNetPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8996C6801CC07E4400E40C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8996C6691CC07E4400E40C74 /* LXYNetPlayer */;
+			targetProxy = 8996C67F1CC07E4400E40C74 /* PBXContainerItemProxy */;
+		};
+		8996C68B1CC07E4400E40C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8996C6691CC07E4400E40C74 /* LXYNetPlayer */;
+			targetProxy = 8996C68A1CC07E4400E40C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8996C6711CC07E4400E40C74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8996C6721CC07E4400E40C74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8996C6761CC07E4400E40C74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8996C6771CC07E4400E40C74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8996C6901CC07E4400E40C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8996C6911CC07E4400E40C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8996C6931CC07E4400E40C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXYNetPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8996C6941CC07E4400E40C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXYNetPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8996C6961CC07E4400E40C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXYNetPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYNetPlayer.app/LXYNetPlayer";
+			};
+			name = Debug;
+		};
+		8996C6971CC07E4400E40C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXYNetPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYNetPlayer.app/LXYNetPlayer";
+			};
+			name = Release;
+		};
+		8996C6991CC07E4400E40C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXYNetPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXYNetPlayer;
+			};
+			name = Debug;
+		};
+		8996C69A1CC07E4400E40C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXYNetPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXY.LXYNetPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXYNetPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8996C6651CC07E4400E40C74 /* Build configuration list for PBXProject "LXYNetPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8996C6901CC07E4400E40C74 /* Debug */,
+				8996C6911CC07E4400E40C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8996C6921CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8996C6931CC07E4400E40C74 /* Debug */,
+				8996C6941CC07E4400E40C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8996C6951CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8996C6961CC07E4400E40C74 /* Debug */,
+				8996C6971CC07E4400E40C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8996C6981CC07E4400E40C74 /* Build configuration list for PBXNativeTarget "LXYNetPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8996C6991CC07E4400E40C74 /* Debug */,
+				8996C69A1CC07E4400E40C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8996C6621CC07E4400E40C74 /* Project object */;
+}
